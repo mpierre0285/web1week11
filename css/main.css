@@ -46,3 +46,51 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/* ----------------------------------------------------- */
+                      /* MAIN STYLES */
+/* ----------------------------------------------------- */
+
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid darkblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article div {
+    background-color: cornflowerblue;
+    border: 2px solid darkblue;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+/* ----------------------------------------------------- */
+                      /* GRID STYLES */
+/* ---------------------------------------------------- */
+
+section.one article{
+    display: grid;
+
+    grid-template-columns: 200px 2fr 1fr ;
+
+    grid-template-rows: 120px 120px;
+}
